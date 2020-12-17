@@ -21,10 +21,6 @@ import java.util.Stack;
  */
 public class RemoveInvalidParentheses {
 
-    /**
-     * "lee(t(c)o)de)"
-     */
-
     public static void main(String[] args) {
         String str = "lee)))))))t(c)o)de))))))))))))))))))";
         String result = minRemoveToMakeValid(str);
@@ -39,9 +35,12 @@ public class RemoveInvalidParentheses {
             return s;
         }
         for (int i = 0; i < str.length(); i++) {
+            // 判断栈中最后存放进入的索引对应的字符是否有和当前字符能够搭配成一个"()", 如果可以, 将其对应索引 pop
             if (!stack.isEmpty() && str.charAt(stack.peek()) == '(' && str.charAt(i) == ')') {
                 stack.pop();
-            } else if (str.charAt(i) == ')' || str.charAt(i) == '(') {
+            }
+            // 否则, 当前字符串为")", "("对应索引存入栈中
+            else if (str.charAt(i) == ')' || str.charAt(i) == '(') {
                 stack.push(i);
             }
         }
