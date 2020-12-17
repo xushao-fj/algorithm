@@ -12,18 +12,18 @@ package com.xsm.algorithm;
  * 输出：3
  * 解释：
  * 长度最长的公共子数组是 [3, 2, 1] 。
+ *
+ * 模型: 1. 动态规划
+ *      2. 滑动窗口
  */
 public class LongestSubarray {
 
     public static void main(String[] args) {
-        int[] A = {1,2,3,2,1};
-        int[] B = {3,2,1,4,7};
+        int[] A = {1, 2, 3, 2, 1};
+        int[] B = {3, 2, 1, 4, 7};
         int result = findLength(A, B);
         System.out.println(result);
     }
-
-    // 暴力算法
-
 
     /**
      * 动态规划
@@ -32,11 +32,11 @@ public class LongestSubarray {
         if (A.length == 0 || B.length == 0) {
             return 0;
         }
-        int[][] temp = new int[A.length][B.length];
+        int[][] temp = new int[A.length+1][B.length+1];
         // 存储最长相同长度
         int max = 0;
-        for (int i = 1; i < A.length; i ++){
-            for (int j = 1; j < B.length; j ++){
+        for (int i = 1; i <= A.length; i ++){
+            for (int j = 1; j <= B.length; j ++){
                 if (A[i - 1] == B[j -1]) {
                     temp[i][j] = temp[i-1][j-1] + 1;
                     max = Math.max(max, temp[i][j]);
