@@ -19,3 +19,9 @@ https://blog.csdn.net/bjweimengshu/article/details/108332389
 > https://leetcode-cn.com/problems/couples-holding-hands/
 
 官方答案: https://leetcode-cn.com/problems/couples-holding-hands/solution/qing-lu-qian-shou-by-leetcode/
+
+## 2020-12 第四周
+- 搜索二维矩阵 II  
+https://leetcode-cn.com/problems/search-a-2d-matrix-ii/
+- 至少有K个重复字符的最长子串  
+https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/
