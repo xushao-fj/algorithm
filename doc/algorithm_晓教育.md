@@ -25,3 +25,10 @@ https://blog.csdn.net/bjweimengshu/article/details/108332389
 > https://leetcode-cn.com/problems/search-a-2d-matrix-ii/
 - 至少有K个重复字符的最长子串  
 > https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/
+
+## 2021-01 第一周
+- 实现 Trie (前缀树)
+> https://leetcode-cn.com/problems/implement-trie-prefix-tree/
+
+- 单词替换
+> https://leetcode-cn.com/problems/replace-words/
