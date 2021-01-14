@@ -32,3 +32,10 @@ https://blog.csdn.net/bjweimengshu/article/details/108332389
 
 - 单词替换
 > https://leetcode-cn.com/problems/replace-words/
+
+## 2021-01 第二周
+- 最长回文串
+> https://leetcode-cn.com/problems/longest-palindromic-substring/
+
+- 验证ip地址
+> https://leetcode-cn.com/problems/validate-ip-address/
