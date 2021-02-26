@@ -39,3 +39,9 @@ https://blog.csdn.net/bjweimengshu/article/details/108332389
 
 - 验证ip地址
 > https://leetcode-cn.com/problems/validate-ip-address/
+
+## 2021-02 第四周
+- 1104. 二叉树寻路 
+https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/
+- 1367. 二叉树中的列表
+https://leetcode-cn.com/problems/linked-list-in-binary-tree/
