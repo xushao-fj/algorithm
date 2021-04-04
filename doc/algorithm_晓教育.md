@@ -32,3 +32,30 @@ https://blog.csdn.net/bjweimengshu/article/details/108332389
 
 - 单词替换
 > https://leetcode-cn.com/problems/replace-words/
+
+## 2021-01 第二周
+- 最长回文串
+> https://leetcode-cn.com/problems/longest-palindromic-substring/
+
+- 验证ip地址
+> https://leetcode-cn.com/problems/validate-ip-address/
+
+## 2021-02 第四周
+- 1104. 二叉树寻路 
+https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/
+- 1367. 二叉树中的列表
+https://leetcode-cn.com/problems/linked-list-in-binary-tree/
+
+## 2021-03 第一周
+- 234 回文链表
+> https://leetcode-cn.com/problems/palindrome-linked-list/
+
+- 792 匹配子序列的单词数
+> https://leetcode-cn.com/problems/number-of-matching-subsequences/
+
+## 2021-03 第二周
+
+- 146. LRU缓存机制
+> https://leetcode-cn.com/problems/lru-cache/
+- 239. 滑动窗口最大值
+> https://leetcode-cn.com/problems/sliding-window-maximum/
